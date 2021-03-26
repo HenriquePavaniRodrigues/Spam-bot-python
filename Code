@@ -1,5 +1,5 @@
 import pyautogui, time # For you to use you need to use "Pip install pyautogui" in the terminal
-f = open("parabens.txt", 'r')
+f = open("example.txt", 'r')
 for word in f:
     pyautogui.typewrite(word)
     pyautogui.press("enter")
